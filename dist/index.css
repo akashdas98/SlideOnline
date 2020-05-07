@@ -1,0 +1,144 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.app {
+    margin: 59px 140px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+.logo {
+    height: 100%;
+}
+
+.logo h1 {
+    display: inline-block;
+    font-size: 42px;
+}
+
+.navbar {
+    height: 100%;
+    margin: 0 6.7%;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    -ms-overflow-style: none;
+}
+
+.navbar::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.navbar li {
+    display: inline-block;
+    margin: 0 23px;
+    color: #030303;
+    font-size: 20px;
+}
+
+.search-bar {
+    width: 351px;
+    height: 100%;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-bar i {
+    position: absolute;
+    left: 18.77px;
+    font-size: 1.3em;
+    color: #656565;
+}
+
+.search-bar input {
+    width: 100%;
+    height: 100%;
+    background: #f4f4f4;
+    border-radius: 10px;
+    padding-left: 49px;
+    font-size: 18px;
+}
+
+.profile-icon {
+    display: flex;
+    margin-left: 51px;
+    align-items: center;
+    justify-content: space-between;
+    width: 86px;
+}
+
+.profile-icon img {
+    border-radius: 60px;
+}
+
+.profile-icon i {
+    color: #b5b5b5;
+}
+
+.categories {
+    margin-top: 74px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.category li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 14px 24px;
+    border-radius: 10px;
+    color: #8A8993;
+}
+
+.filters {
+    width: 131px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 14px 24px;
+    border: 1px solid #E7E7EA;
+    border-radius: 10px;
+    justify-content: space-between;
+    color: #212232;
+}
+
+.filters span {
+    font-weight: medium;
+    font-size: 20px;
+}
+
+.event {
+    margin-top: 53px;
+}
+
+.event h1 {
+    font-size: 27px;
+}
+
+.events {
+    margin-top: 35px;
+}

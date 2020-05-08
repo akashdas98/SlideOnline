@@ -3,17 +3,17 @@ import OnlineEvents from './OnlineEvents'
 import PastEvents from './PastEvents'
 import Typography from '@material-ui/core/Typography'
 import { Grid } from '@material-ui/core'
-import { makeStyles } from '@material-ui/styles'
+import { makeStyles } from '@material-ui/core'
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
     root:{
         marginTop: '29px',
     },
     eventHeading: {
         fontSize: '27px',
         fontWeight: 'bold',
-    }
-})
+    },
+}))
 
 const Event = () => {
     const classes = useStyles();

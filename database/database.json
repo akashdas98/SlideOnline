@@ -7,78 +7,78 @@
             "date": "Thu, Apr 19, 5:00pm"
         },
         {
-            "title": "Chicago Film Festival edition 2020",
-            "thumbnail": "../src/img/Byrd.png",
+            "title": "Jazz Festival 2020 Universidad Sevilla",
+            "thumbnail": "../src/img/Didier.png",
+            "price": "$50",
+            "date": "Mon, Apr 18, 6:00pm"
+        },
+        {
+            "title": "Unite Youth Group Fridays, Mid City Church Presents.",
+            "thumbnail": "../src/img/Customizable.png",
             "price": "Free",
             "date": "Thu, Apr 19, 5:00pm"
         },
         {
-            "title": "Chicago Film Festival edition 2020",
-            "thumbnail": "../src/img/Byrd.png",
-            "price": "Free",
+            "title": "Cliff Birds Business Presents Hard talk.",
+            "thumbnail": "../src/img/eb411abb-daf6-431e-8ace-6c7c5f4d8050.png",
+            "price": "$20",
             "date": "Thu, Apr 19, 5:00pm"
         },
         {
-            "title": "Chicago Film Festival edition 2020",
-            "thumbnail": "../src/img/Byrd.png",
-            "price": "Free",
+            "title": "Taste Upper West Side",
+            "thumbnail": "../src/img/15+.png",
+            "price": "$20",
             "date": "Thu, Apr 19, 5:00pm"
         },
         {
-            "title": "Chicago Film Festival edition 2020",
-            "thumbnail": "../src/img/Byrd.png",
-            "price": "Free",
+            "title": "Barbeque Party",
+            "thumbnail": "../src/img/BBQ.png",
+            "price": "$5",
             "date": "Thu, Apr 19, 5:00pm"
         },
         {
-            "title": "Chicago Film Festival edition 2020",
-            "thumbnail": "../src/img/Byrd.png",
-            "price": "Free",
+            "title": "Bingo Night, Games funs & Prizes",
+            "thumbnail": "../src/img/Free.png",
+            "price": "$30",
             "date": "Thu, Apr 19, 5:00pm"
         },
         {
-            "title": "Chicago Film Festival edition 2020",
-            "thumbnail": "../src/img/Byrd.png",
-            "price": "Free",
-            "date": "Thu, Apr 19, 5:00pm"
-        },
-        {
-            "title": "Chicago Film Festival edition 2020",
-            "thumbnail": "../src/img/Byrd.png",
-            "price": "Free",
+            "title": "Jazz Festival 2020 Universidad Sevilla",
+            "thumbnail": "../src/img/OFF.png",
+            "price": "$60",
             "date": "Thu, Apr 19, 5:00pm"
         }
         
     ],
     "past": [
         {
-            "title": "Chicago Film Festival edition 2020",
-            "thumbnail": "../src/img/Byrd.png",
+            "title": "Global tech Expo",
+            "thumbnail": "../src/img/Print.png",
+            "price": "$16",
+            "date": "Thu, Apr 19, 5:00pm"
+        },
+        {
+            "title": "The Dream sangue",
+            "thumbnail": "../src/img/Crailers.png",
             "price": "Free",
             "date": "Thu, Apr 19, 5:00pm"
         },
         {
-            "title": "Chicago Film Festival edition 2020",
-            "thumbnail": "../src/img/Byrd.png",
-            "price": "Free",
+            "title": "Development Business",
+            "thumbnail": "../src/img/How.png",
+            "price": "$20",
             "date": "Thu, Apr 19, 5:00pm"
         },
         {
-            "title": "Chicago Film Festival edition 2020",
-            "thumbnail": "../src/img/Byrd.png",
-            "price": "Free",
+            "title": "Life is a mixtape",
+            "thumbnail": "../src/img/Mixtape.png",
+            "price": "$10",
             "date": "Thu, Apr 19, 5:00pm"
         },
         {
-            "title": "Chicago Film Festival edition 2020",
-            "thumbnail": "../src/img/Byrd.png",
-            "price": "Free",
-            "date": "Thu, Apr 19, 5:00pm"
-        },
-        {
-            "title": "Chicago Film Festival edition 2020",
-            "thumbnail": "../src/img/Byrd.png",
-            "price": "Free",
+            "title": "Barbeque Party",
+            "thumbnail": "../src/img/BBQ.png",
+            "price": "$5",
             "date": "Thu, Apr 19, 5:00pm"
         },
         {

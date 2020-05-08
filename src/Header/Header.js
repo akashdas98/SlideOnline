@@ -9,9 +9,10 @@ import SearchIcon from '@material-ui/icons/Search';
 import { makeStyles } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
     appBar: {
-        height: '55px'
+        minHeight: '55px',
+        maxHeight: '120px'
     },
     toolbar: {
         display: 'flex',
@@ -19,23 +20,51 @@ const useStyles = makeStyles({
         minHeight: '0',
         height: '100%',
         padding: '0',
+        [theme.breakpoints.down("sm")]: {
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+        },   
     },
     logo: {
         fontSize: '41px',
         fontWeight: 'bold',
+        [theme.breakpoints.down("sm")]: {
+            width: '100%',
+            textAlign: 'center',
+        },
     },
     navbar: {
         margin: '0 6.7%',
         overflow: 'auto',
         whiteSpace: 'nowrap',
+        [theme.breakpoints.down("lg")]: {
+            margin: '0 5%',
+        },
+        [theme.breakpoints.down("md")]: {
+            margin: '0 3%',
+        },
+        [theme.breakpoints.down("sm")]: {
+            width: '100%',
+            margin: '10px 0 15px 0',
+        },
     },
     search: {
         width: "351px",
-        height: '100%',
+        height: '55px',
         marginLeft: 'auto',
         display: 'flex',
         alignItems: 'center',
-        position: 'relative'
+        position: 'relative',
+        background: '#f4f4f4',
+        borderRadius: '10px',
+        [theme.breakpoints.down("md")]: {
+            width: '280px',
+        },
+        [theme.breakpoints.down("sm")]: {
+            width: '64px',
+            justifyContent: 'center',
+            margin: '0 20px',
+        },
     },
     searchIcon: {
         fontSize: '28px',
@@ -48,9 +77,11 @@ const useStyles = makeStyles({
         borderRadius: '10px',
         height: '100%',
         width: '100%',
-        background: '#f4f4f4',
         paddingLeft: '49px',
         fontSize: '20px',
+        [theme.breakpoints.down("sm")]: {
+            display: 'none',
+        },
     },
     profileIcon: {
         marginLeft: '51px',
@@ -58,8 +89,11 @@ const useStyles = makeStyles({
         justifyContent: 'space-between',
         alignItems: 'center',
         width: '86px',
+        [theme.breakpoints.down("sm")]: {
+            margin: '0 20px',
+        },
     },
-})
+}));
 
 const Header = () => {
     const classes = useStyles();

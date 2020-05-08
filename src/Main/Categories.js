@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Category from './Category';
+import FilterListOutlinedIcon from '@material-ui/icons/FilterListOutlined';
 
 const activeStyle = {
     variant: "contained",
@@ -17,6 +18,28 @@ const categoryStyle = {
     justifyContent: 'space-between',
 }
 
+const filterStyle = {
+    width: '131px',
+    height: '50px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-evenly',
+    border: '1px solid #E7E7EA',
+    borderRadius: '10px',
+    color: '#212232',
+}
+
+const filterTextStyle = {
+    fontSize: '20px',
+    fontWeigt: '500',
+}
+
+const categoryContainerStyle = {
+    width: '900px',
+    overflow: 'auto',
+    whiteSpace: 'nowrap',
+}
+
 class Categories extends Component {
     state = {
         categories: [
@@ -32,12 +55,12 @@ class Categories extends Component {
     render() {
         return (
             <div style={categoryStyle}>
-                <div>
+                <div style={categoryContainerStyle}>
                     <Category categories={this.state.categories} />
                 </div>
-                <div className='filters'>
-                    <i className="fas fa-sliders-h"></i>
-                    <span>Filters</span>
+                <div style={filterStyle}>
+                    <FilterListOutlinedIcon style={{fontSize: '36px'}}/>
+                    <span style={filterTextStyle}>Filters</span>
                 </div>
             </div>
         )

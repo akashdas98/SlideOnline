@@ -9,15 +9,16 @@ import AlarmIcon from '@material-ui/icons/Alarm';
 const useStyles = makeStyles(props => ({
     root: {
         borderRadius: '10px',
-        maxWidth: '380px',
-        maxHeight: '468px',
-        minWidth: '300px',
+        height: '450px',
+        minWidth: '290px',
     },
     media: props => {
         return {
             height: '282px',
             background: `url(${props.item.thumbnail})`,
-            backgroundPosition: 'center center'
+            backgroundPosition: 'center center',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
         }
     },
     price: {

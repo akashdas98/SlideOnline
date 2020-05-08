@@ -10,8 +10,14 @@ const useStyles = makeStyles(theme => ({
         [theme.breakpoints.down("lg")]: {
             width: '400px',
         },
+        [theme.breakpoints.down("md")]: {
+            minWidth: '600px',
+        },
         [theme.breakpoints.down("sm")]: {
-            minWidth: '100%',
+            minWidth: '500px',
+        },
+        [theme.breakpoints.down("xs")]: {
+            minWidth: '400px',
         },
     },
     items: {

@@ -20,7 +20,7 @@ const useStyles = makeStyles(theme => ({
         minHeight: '0',
         height: '100%',
         padding: '0',
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
             flexWrap: 'wrap',
             justifyContent: 'center',
         },   
@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme => ({
     logo: {
         fontSize: '41px',
         fontWeight: 'bold',
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
             width: '100%',
             textAlign: 'center',
         },
@@ -37,15 +37,14 @@ const useStyles = makeStyles(theme => ({
         margin: '0 6.7%',
         overflow: 'auto',
         whiteSpace: 'nowrap',
+        display: 'flex',
         [theme.breakpoints.down("lg")]: {
-            margin: '0 5%',
+            margin: '0 3% 0 5%',
         },
         [theme.breakpoints.down("md")]: {
-            margin: '0 3%',
-        },
-        [theme.breakpoints.down("sm")]: {
             width: '100%',
             margin: '10px 0 15px 0',
+            justifyContent: 'center',
         },
     },
     search: {
@@ -58,9 +57,15 @@ const useStyles = makeStyles(theme => ({
         background: '#f4f4f4',
         borderRadius: '10px',
         [theme.breakpoints.down("md")]: {
-            width: '280px',
+            width: '50%',
+            justifyContent: 'center',
+            margin: '0 20px',
         },
         [theme.breakpoints.down("sm")]: {
+            justifyContent: 'center',
+            margin: '0 15px',
+        },
+        [theme.breakpoints.down("xs")]: {
             width: '64px',
             justifyContent: 'center',
             margin: '0 20px',
@@ -79,7 +84,7 @@ const useStyles = makeStyles(theme => ({
         width: '100%',
         paddingLeft: '49px',
         fontSize: '20px',
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("xs")]: {
             display: 'none',
         },
     },

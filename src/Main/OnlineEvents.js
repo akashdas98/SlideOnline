@@ -3,6 +3,8 @@ import { online as events } from '../../database/database.json'
 import EventItem from './EventItem';
 import { Grid } from '@material-ui/core';
 
+
+
 const OnlineEvents = () => {
     return (
         <Grid 

@@ -7,7 +7,7 @@ const Main = () => {
         <div>
             <Categories />
             <Event />
-        </div>
+        </div>   
     )
 }
 
